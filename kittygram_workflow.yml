@@ -100,7 +100,7 @@ jobs:
         with:
           context: ./nginx/
           push: true
-          tags: bimbobam/kittygram_gates:latest
+          tags: bimbobam/kittygram_gateway:latest
   deploy:
     runs-on: ubuntu-latest
     needs: 
