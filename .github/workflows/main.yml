@@ -3,7 +3,7 @@ name: Main Kitty workflow
 on:
   push:
     branches:
-      - mai
+      - main
 jobs:
   tests:
     runs-on: ubuntu-latest
