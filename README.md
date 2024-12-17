@@ -51,6 +51,7 @@ docker compose -f docker-compose.production.yml up
 docker compose -f docker-compose.production.yml exec backend python manage.py migrate
 docker compose -f docker-compose.production.yml exec backend python manage.py collectstatic
 docker compose -f docker-compose.production.yml exec backend cp -r /app/collected_static/. /backend_static/static/
+```
 
 ## Автор
 [@BimBoBam](https://github.com/BimBoBam)
