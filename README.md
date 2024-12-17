@@ -1,3 +1,5 @@
+![Main Kitty workflow](https://github.com/BimBoBam/kittygram_final/actions/workflows/main.yml/badge.svg)
+
 # Kittygram - социальная сеть для размещение фотографий домашних животных.
 
 ## Описание проекта
