@@ -13,9 +13,6 @@
 •	gunicorn==20.1.0
 •   djoser==2.1.0
 
-## Автор
-[@BimBoBam](https://github.com/BimBoBam)
-
 ### Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
@@ -54,3 +51,6 @@ docker compose -f docker-compose.production.yml up
 docker compose -f docker-compose.production.yml exec backend python manage.py migrate
 docker compose -f docker-compose.production.yml exec backend python manage.py collectstatic
 docker compose -f docker-compose.production.yml exec backend cp -r /app/collected_static/. /backend_static/static/
+
+## Автор
+[@BimBoBam](https://github.com/BimBoBam)
